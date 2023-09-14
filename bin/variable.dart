@@ -2,6 +2,9 @@ void main() {
   String name;
   name = "Wahyu Rahayu";
 
+  var x = 0;
+  print(x);
+
   print("Hello $name ganteng!");
 
   String country = "Indonesia";

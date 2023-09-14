@@ -3,6 +3,16 @@ void sayHello(String name, String Function(String) filter) {
 }
 
 void main() {
+  var sum = (int num1, int num2) {
+    return num1 + num2;
+  };
+
+  print(sum(5, 4));
+
+  Function printLambda = () => print('This is lambda function');
+
+  printLambda;
+
   var upperFunction = (String name) {
     return name.toUpperCase();
   };
@@ -19,7 +29,4 @@ void main() {
   sayHello('Wahyu Rahayu', (name) {
     return name.toLowerCase();
   });
-
-
 }
-
